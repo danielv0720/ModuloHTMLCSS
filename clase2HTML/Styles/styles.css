@@ -1,0 +1,62 @@
+
+/*
+
+estructura basica de los estilos CSS
+
+clase/etiqueta {
+  estilo_a_aplicar:propiedad_del_estilo;
+}
+*/
+
+/*estilos generales*/
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*navbar style*/
+nav {
+background-color: turquoise;
+padding: 30px;
+color: white;
+}
+
+/*button header style*/
+
+.btn-header-style {
+color: white;
+background-color: green;
+height: 40px;
+padding: 10px;
+border: 0;
+border-radius: 5px;
+margin-top: 5px;
+}
+/*header container style*/
+
+ .header-container{
+      display:flex;
+   height: 550px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+   .bg-header{
+     background-image: url("../img/photo-1595531172949-30922c28a240.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y: center;
+     opacity: 0,4;
+
+
+   }
+
+ 
+
+
+
+
+
+}
