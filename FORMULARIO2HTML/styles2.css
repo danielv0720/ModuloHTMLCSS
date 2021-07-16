@@ -1,0 +1,66 @@
+* {
+  font-family: Arial, helvetica, sans-serif;
+  margin: 0px;
+}
+
+/*fondo*/
+.bg-fondo {
+  background-image: url(../FORMULARIO2HTML/fondo\ registro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 15%;
+}
+/*colortitulo*/
+
+.header-color {
+  color: royalblue;
+}
+/*Color margen*/
+.bg-white {
+  background-color: white;
+}
+/*Forma margen*/
+.form-container {
+  padding: 4rem;
+  width: 20%;
+  border-radius: 0.4rem;
+}
+.input-container {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.input-container input {
+  border-radius: 00.4rem;
+  border: solid gray 0.1rem;
+  padding: 00.4rem;
+  margin-top: 0.2rem;
+}
+/*Boton*/
+.btn-resg {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+/*Forma boton*/
+.btn-resg button {
+  padding: 0.7rem;
+  background-color: royalblue;
+  border: 0;
+  border-radius: 0.2rem;
+  color: white;
+  transition: background-color;
+  transition: padding 0.5s;
+}
+.btn-resg button:hover{
+  background-color: gray;
+  padding: 1rem;
+}
+
+/*Alinear formulario*/
+.screen-from {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
